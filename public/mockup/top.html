@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>出納帳すいとうちょう</title>
+</head>
+<body>
+<h1>ログイン後のページ</h1>
+
+<h2>log out</h2>
+  <a href="index.html">ログアウト</a>
+   
+<p>入金しました</p>
+<p>出金しました</p>
+
+<h3>入金</h3>
+   <form action="top.html" method="post">
+        金額:<input name="amout">
+        <button>入金する</button>       
+   </form>
+   
+
+ 
+           
+
+<h3>出金</h3>
+    <form action="top.html" method="post">
+        <select>
+            <option>飲食代</option>
+            <option>交通費</option>
+        </select><br>
+        金額:<input name="amout">
+        <button>出金する</button>
+    </form>
+    
+
+
+
+<br>
+<h2>出納帳</h2>
+<table border="1">
+<tr>
+    <th>日付</th>
+    <th>項目</th>
+    <th>入金</th>
+    <th>出金</th>
+</tr>
+<tr>
+    <td>2019-5-3</td>
+    <td></td>
+    <td>￥50000</td>
+    <td></td>
+</tr>
+<tr>
+    <td>2019-5-2</td>
+    <td>映画</td>
+    <td></td>
+    <td>￥1500</td>
+</tr>
+<tr>
+    <td>2019-5-1</td>
+    <td>食事</td>
+    <td></td>
+    <td>￥5000</td>
+</tr>
+</table>
+
+
+
+<br>
+<h2>ユーザ情報</h2>
+<a href="">*情報編集</a>
+</body>
+</html>
